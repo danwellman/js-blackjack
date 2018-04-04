@@ -1,5 +1,13 @@
 # JsBlackjack
 
+This is the development version of my JsBlackjack game, which is the classic card game Blackjack, built with JavaScript.
+
+I've used this game as a code example in a number of Envato Tuts+ courses, but this version is separate and will be updated on a different frequency than the versions used elsewhere. The repositories are named after the courses for those other versions.
+
+The biggest issue with this version is in the card dealing - players are dealt all of their cards in one go, rather than dealing 1 card to each player *n* times. I may or may not address this.
+
+The cards, players, and deck are reasonably decoupled, so it should be possible to build other card games using the players, carfs, and deck here.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
